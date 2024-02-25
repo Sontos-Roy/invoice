@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 13px;
+}
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.header .left{
+    width: 70%;
+}
+.header .left h2{
+    margin: 10px 0;
+
+}
+.header .right{
+    text-align: right;
+    padding: 10px;
+    padding-right: 0;
+    color: rgb(15, 15, 53);
+    font-size: 12px;
+}
+.table{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+.product_table{
+    padding: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.product_table, .product_table tr, .product_table tr td{
+    border: 1px solid black;
+    padding: 5px;
+}
+.product_table tr, .product_table tr td{
+    border-top: 0;
+    border-bottom: 0;
+}
+.product_table tr:first-child{
+    border-bottom: 1px solid black;
+}
+.product_table tr td:last-child{
+    text-align: right;
+}
+.total-box{
+    width: 250px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.total-box .total-right{
+    width: 130px;
+    padding-left: 10px;
+    text-align: right;
+    display: flex;
+}
+.total-box .total-right span{
+    text-align: left;   
+}
+.total-box .total-right .span{
+    width: 100px;
+    min-width: 100px;
+    padding: 0 5px;
+    border: 1px solid black;
+    margin-left: auto;
+    display: inline-block;
+}
+.table.bottom_table{
+    padding: 0;
+    border-collapse: collapse;
+}
+.table.bottom_table tr, .table.bottom_table tr th,  .table.bottom_table tr td{
+    padding: 3px;
+    border: 1px solid gray;
+}
